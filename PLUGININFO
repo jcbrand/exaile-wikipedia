@@ -1,0 +1,4 @@
+Version=0.5
+Authors=['JC Brand <jc@opkode.com>']
+Name='Wikipedia'
+Description='Provides contextual wikipedia information.'
