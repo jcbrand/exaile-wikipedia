@@ -80,16 +80,6 @@ class BrowserPage(webkit.WebView, providers.ProviderHandler):
         self.setup_buttons()
 
     def setup_buttons(self):
-        self.prev_button = self.builder.get_object('PrevButton')
-        self.prev_button.set_tooltip_text('Previous')
-        self.prev_button.set_sensitive(False)
-        self.prev_button.connect('clicked', self.on_prev_clicked)
-
-        self.next_button = self.builder.get_object('NextButton')
-        self.next_button.set_tooltip_text('Next')
-        self.next_button.set_sensitive(False)
-        self.next_button.connect('clicked', self.on_next_clicked)
-
         self.home_button = self.builder.get_object('HomeButton')
         self.home_button.set_tooltip_text('Home')
         self.home_button.connect('clicked', self.on_home_clicked)
