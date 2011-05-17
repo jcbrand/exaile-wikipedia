@@ -5,12 +5,17 @@ This is a plugin for the [Exaile](http://exaile.org) music player.
 It provides a new tab and panel in which the Wikipedia page of the current
 artist will render.
 
-![Screenshot](http://farm3.static.flickr.com/2761/5729303773_9d62114cac_z.jpg "Exaile Wikipedia Plugin")
-
-
 Install
 -------
 
 Just extract this package to ~/.local/share/exaile/plugins
+
+
+Screenshot
+----------
+
+![Screenshot](http://farm3.static.flickr.com/2761/5729303773_9d62114cac_z.jpg "Exaile Wikipedia Plugin")
+
+
 
 
